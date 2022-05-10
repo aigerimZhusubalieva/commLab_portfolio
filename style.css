@@ -257,12 +257,15 @@ header{
         column-gap: 2px;
     }
 
+    .commLabLeft{
+        height: 50vh;
+    }
+
     .footer{
         display: none;
     }
 
     .projects{
-        padding-top: 0px;
         height: auto;
     }
 
@@ -299,11 +302,5 @@ header{
             "more"
         ;
         padding-left: 5vw;
-    }
-
-    .header{
-        position: absolute;
-        width: 100vw;
-        margin: 0;
     }
 }
