@@ -55,31 +55,13 @@ img{
     top: 0;
     left: 0;
     z-index: 100;
+    cursor: pointer;
 }
 
 .landingPage p{
     height: 40px;
     color: white;
     font-size: 35px;
-}
-
-.welcomeButton{
-    background-color: black;
-    width: 100px;
-    height: 50px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: white;
-    border-radius: 5%;
-    text-align: center;
-    filter: drop-shadow(1px 2px 1px white);
-    cursor: pointer;
-    font-size: 40px;
-}
-
-.welcomeButton:hover{
-    background-color: white;
-    
 }
 
 .closeLanding{
