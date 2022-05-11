@@ -298,6 +298,8 @@ header{
 
     .commLabProject{
         animation: float 2s ease-in-out infinite;
+        width: 100px;
+        height: 100px;
     }
 
     .commLab{
@@ -308,9 +310,9 @@ header{
     }
 
     .commLabRight{
+        flex: 2;
         margin: 0;
-        padding-top: 50px;
-        padding-bottom: 30px;
+        padding: 0;
         row-gap: 20px;
         column-gap: 2px;
         align-content: center;
@@ -318,7 +320,11 @@ header{
     }
 
     .commLabLeft{
-        height: 50vh;
+        flex: 1;
+    }
+
+    .commLabLeft p, h2{
+        width: 90vw;
     }
 
     .footer{
@@ -335,11 +341,12 @@ header{
     }
 
     .projectText{
+        order: 1;
         width: 100%;
     }
 
     .projectImage{
-        order: 1;
+        order: 2;
         width: 75vw;
         height: 20vh;
         border-radius: 15px;
