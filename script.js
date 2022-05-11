@@ -6,4 +6,3 @@ AOS.init();
 welcomeButton.addEventListener("click", function(){
     landingPage.classList.add("closeLanding");
 });
-
