@@ -5,7 +5,7 @@ body{
 }
 
 html{
-    font-size: 15px;
+    font-size: 16px;
     font-family: 'Chakra Petch', sans-serif;
     background-color: lavender;
 }
@@ -130,12 +130,17 @@ header{
     flex-direction: column;
     padding: 20px;
     height: 60vh;
+
+    text-align: center;
+}
+
+.commLabLeft p, h2{
+    width: 40vw;
 }
 
 .commLabRight{
-    flex: 2;
+    flex: 1;
     margin-top: 100px;
-    margin-left: 100px;
     grid-area: right;
     display: grid;
     row-gap: 75px;
@@ -155,8 +160,8 @@ header{
 }
 
 .commLabProject{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background-color: lavender;
     margin: 10px;
@@ -176,7 +181,7 @@ header{
 }
 
 .commLabProject:hover{
-    transform: scale(2);
+    transform: scale(1.5);
 }
 
 @keyframes float {
@@ -213,6 +218,7 @@ header{
 .projectImage{
     height: 45vh;
     padding-right: 50px;
+    padding-left: 50px;
 }
 
 .projectImage img{
