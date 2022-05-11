@@ -309,10 +309,20 @@ header{
         flex: 2;
         margin: 0;
         padding: 0;
-        row-gap: 20px;
-        column-gap: 2px;
+        row-gap: 25px;
+        column-gap: 25px;
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px;
+        grid-template-areas: 
+            "e p1 e"
+            "p2 e p3"
+            "e p4 e"
+        ;
         align-content: center;
         justify-content: center;
+        position: relative;
+        top: -100px;
+        left: -20px;
     }
 
     .commLabLeft{
